@@ -1,0 +1,31 @@
+{
+  "name": "dev-project",
+  "version": "1.0.0",
+  "description": "![](/logo/hacktoberfest-2021.png)  \r <h1 align=\"center\"> Hacktoberfest 2021 🎉</h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10raw/Dev-Project.git"
+  },
+  "author": "Rewa <raw.rewa10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/10raw/Dev-Project/issues"
+  },
+  "homepage": "https://github.com/10raw/Dev-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14",
+    "url": "^0.11.0"
+  }
+}
